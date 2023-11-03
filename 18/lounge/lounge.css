@@ -47,10 +47,24 @@ body {
   border-width:        1px;
   border-style:        dashed;
   background-color:    #a7cece;
-  padding:            25px; 
-  margin:              30px;
   font-size: 1.9em;
   font-style: italic;
   color:#4444;
   font-family: Georgia,"Times New Roman";
+  padding:            25px; 
+  margin:              30px;
   }
+  .elixirs{
+    border-width: thin;
+    border-style: solid;
+    border-color: #007e7e;
+    width: 200px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 20px;
+    background-image: url(images/cocktail.gif);
+    background-repeat: repeat-x;
+    text-align: center;
+
+    }
