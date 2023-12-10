@@ -5,20 +5,88 @@
   margin:20px;
   }
   .a{
+  position: relative;
   padding:0px 17px 0px 680px;
-  margin:0px 0px 15px 0px;
+  margin:0px 0px 30px 0px;
   font-size: 14px;
   font-weight: 600;
   
   }
   .b{
   padding:0px 17px 0px 17px;
-  margin:0px 0px 15px 0px;
+  margin:0px 0px 30px 0px;
   font-size: 14px;
   font-weight: 600;
   
   }
   img{
-  width:170px;
-  height:180px;
+  display: flex;
+  width:190px;
+  height:210px;
+  margin:0px;
+  margin-top:40px;
+  
+  }
+  .q{
+    border: solid 1px;
+    padding:0px 40px 0px 40px;
+    margin:10px 10px 10px 650px;
+    }
+  .p{
+    border: solid 1px;
+    padding:0px 40px 0px 40px;
+    margin:10px 10px 10px 10px;
+    }
+  .d{
+  color: red;
+  margin:0px 10px 0px 0px;
+  }
+  .d{
+  color: red;
+  margin:0px 0px 0px 10px;
+  }
+  a { color:blue;
+    text-decoration: none;
+    }
+  a:hover{
+  color: red;
+  }
+  .ps{
+  display: flex;
+  font-family:   Arial, sans-serif;
+  font-size:14px;
+  font-weight: 600;
+  border:solid 2px blue;
+  background-color: blue;
+  color: aliceblue;
+  padding:1px 2px 1px 4px;
+  margin:0px 0px 0px 0px;
+  width: 30px;
+  height:20px;
+  }
+  .ios{
+  display: flex;
+  font-family:   Arial, sans-serif;
+  font-size:14px;
+  font-weight: 600;
+  border:solid 2px pink;
+  background-color:pink;
+  color: aliceblue;
+  padding:1px 2px 1px 4px;
+  margin:0px 0px 0px 0px;
+  width: 30px;
+  height:20px;
+  }
+  .nsw{
+  display: flex;
+  font-family:   Arial, sans-serif;
+  font-size:14px;
+  font-weight: 600;
+  border:solid 2px red;
+  background-color: red;
+  color: aliceblue;
+  padding:1px 2px 1px 4px;
+  margin:0px 0px 0px 0px;
+  width: 30px;
+  height:20px;
   }
