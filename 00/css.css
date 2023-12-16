@@ -3,14 +3,16 @@
   font-size: 27px;
   font-weight: 600;
   margin:20px;
+  margin-top:80px;
   }
+  .red{color: red;}
   .a{
   position:relative;
   padding:10px;
   margin:10px 0px 10px 460px;
   font-size: 14px;
   font-weight: 600;
-  
+  color: red;
   }
   .b{
   padding:0px 10px 0px 10px;
@@ -19,43 +21,60 @@
   font-weight: 600;
   
   }
-  img{
+  .img{
   display: flex;
   width:210px;
   height:210px;
   margin:0px;
-  margin-top:40px;
+  margin-bottom:0px;
+  margin-top:30px;
   padding:10px;
+  padding-bottom:0px;
   margin-left:0px;
   
   }
   .q{
-    padding:1px 0px 1px 5px;
+    padding:5px 0px 5px 0px;
     border: solid 1px;
-    margin:10px 10px 10px 500px;
+    margin:0px 20px 40px 450px;
     font-weight: 600;
+    font-size:13px;
     }
-    .qq{
-      position: relative;
-      padding:1px 1px 1px 5px;
-      border: solid 1px;
-      margin:30px 550px 40px 550px;
-      font-weight: 600;
-      }
+    .qian{
+      padding: 0px;
+      padding-right: 40px;
+    }
+  .qq{
+    position: relative;
+    padding:5px 10px 5px 30px;
+    border: solid 1px;
+    margin:30px 10px 40px 550px;
+    font-weight: 600;
+    font-size: 13px;
+    }
   .p{
     
     border: solid 1px;
-    padding:0px 0px 0px 0px;
-    margin:10px 10px 10px 10px;
+    padding:5px 0px 5px 0px;
+    margin:0px 10px 40px 20px;
     font-weight: 600;
+    font-size:13px;
+    }
+    .hou{
+      padding: 0px;
+      padding-left:40px;
     }
   .d{
   color: red;
-  margin:0px 10px 0px 0px;
+  margin:0px 25px 0px 10px;
+  padding-left: 0px;
+  font-weight: 600;
+  font-size: 15px;
   }
   .dd{
     color: red;
-    margin:0px 0px 0px 10px;
+    margin:0px 10px 0px 25px;
+    font-size: 15px;
   }
  
   a { color:blue;
@@ -73,7 +92,8 @@
   background-color: blue;
   color: aliceblue;
   padding:1px 2px 1px 4px;
-  margin:0px 0px 0px 0px;
+  margin-bottom:1px;
+  margin-left:10px;
   width: 30px;
   height:20px;
   }
@@ -86,7 +106,7 @@
   background-color:pink;
   color: aliceblue;
   padding:1px 2px 1px 4px;
-  margin:0px 0px 0px 0px;
+  margin:0px 0px 0px 10px;
   width: 30px;
   height:20px;
   }
@@ -99,9 +119,16 @@
   background-color: red;
   color: aliceblue;
   padding:1px 2px 1px 4px;
-  margin:0px 0px 0px 0px;
+  margin:0px 0px 0px 10px;
   width: 30px;
   height:20px;
+  }
+  .zi{
+    padding:0px 0px 0px 10px;
+    font-size:12px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom:40px;
   }
 
 table{display: table;}
@@ -129,12 +156,75 @@ tr{display: table-cell;}
   padding-top:5px;
   padding-bottom:5px;
   }
-  .aaa{
-  font-size:14px;
+  .size{
+  font-size:12px;
   }
- body {
+ .main {
     width:               1170px;
     padding:5px 5px 5px 5px;
     margin-left: auto;
     margin-right: auto;
+  }
+  .aaa{color: black;}
+
+  .i{width: 1170px;
+    height: 200px;
+    margin-top: 70px;
+    }
+    .ii{
+      width: 1170px;
+    height: 200px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    }
+  .di{ background-color:#EEEEEE;
+    height:240px;
+    text-align: center;
+    margin-top:40px;
+    padding-top:20px;
+    border-top: solid #DDDDDD 1px; 
+    }
+  .dz{font-size: 15px;
+    margin:12px;
+    color:#444444;
+    }
+  .dimg{
+      background-color:#EEEEEE;
+      width: 40px;
+      height: 40px;
+      margin: 20px;
+      margin-top:40px;
+      }
+  .dp{
+      position: relative;
+      padding:5px 1px 5px 1px;
+      background-color:white;
+      margin:30px 660px 30px 660px;
+      font-size:10px;
+      font-weight: 600;
+  }
+  .de{
+    color: red;
+    margin:0px 0px 0px 10px;
+    font-weight: 600;
+  }
+  .foot{
+      font-size: 12px;
+      text-align: center;
+      
+  }
+  body{
+    padding: 0px;
+    margin: 0px;
+  }
+  .ccc{
+    top: 106px;
+    left: 0;
+    height: 0;
+    -webkit-transition-duration: .5s;
+    transition-duration: .5s;
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    background-color: #fff;
   }
