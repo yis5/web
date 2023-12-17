@@ -46,9 +46,9 @@
     }
   .qq{
     position: relative;
-    padding:5px 10px 5px 30px;
+    padding:5px 5px 5px 40px;
     border: solid 1px;
-    margin:30px 10px 40px 550px;
+    margin:30px 10px 40px 540px;
     font-weight: 600;
     font-size: 13px;
     }
@@ -73,7 +73,7 @@
   }
   .dd{
     color: red;
-    margin:0px 10px 0px 25px;
+    margin:0px 3px 0px 25px;
     font-size: 15px;
   }
  
@@ -165,11 +165,17 @@ tr{display: table-cell;}
     margin-left: auto;
     margin-right: auto;
   }
-  .aaa{color: black;}
-
+  .aaa{color: black;;}
+  
+  .ia:hover{
+    transition: all .3s ease;
+    opacity: 0.6;
+  }
   .i{width: 1170px;
     height: 200px;
     margin-top: 70px;
+    background-color: #fff;
+  
     }
     .ii{
       width: 1170px;
@@ -178,35 +184,48 @@ tr{display: table-cell;}
     margin-bottom: 30px;
     }
   .di{ background-color:#EEEEEE;
-    height:240px;
+    height:220px;
     text-align: center;
     margin-top:40px;
     padding-top:20px;
-    border-top: solid #DDDDDD 1px; 
+    border-top: solid #DDDDDD 2px; 
     }
   .dz{font-size: 15px;
-    margin:12px;
-    color:#444444;
+     margin:10px;
+     color:#444444;
     }
   .dimg{
       background-color:#EEEEEE;
-      width: 40px;
-      height: 40px;
-      margin: 20px;
-      margin-top:40px;
+      width: 45px;
+      height: 45px;
+      margin: 15px;
+      margin-top:30px;
+      margin-bottom: 0px;
+      border-radius: 50%;
+      transition: all .3s ease;
       }
+      .dimg:hover{
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+        -webkit-border-radius:50%;
+        -moz-border-radius:50%;
+        border-radius:50%;
+      }
+     
   .dp{
       position: relative;
-      padding:5px 1px 5px 1px;
+      padding:6px 1px 6px 5px;
       background-color:white;
-      margin:30px 660px 30px 660px;
-      font-size:10px;
+      margin:30px 668px 30px 668px;
+      font-size:11px;
       font-weight: 600;
   }
   .de{
     color: red;
-    margin:0px 0px 0px 10px;
+    margin:0px 5px 0px 2px;
     font-weight: 600;
+    font-size: 14px;
   }
   .foot{
       font-size: 12px;
@@ -214,8 +233,8 @@ tr{display: table-cell;}
       
   }
   body{
-    padding: 0px;
     margin: 0px;
+    padding:0px;
   }
   .ccc{
     top: 106px;
@@ -228,3 +247,77 @@ tr{display: table-cell;}
     width: 100%;
     background-color: #fff;
   }
+  #css{
+    padding-left: 50px;
+  }
+ 
+  :target#css{padding-left: 400px;}
+  .x{  overflow:hidden; 
+     position: relative;
+     margin: auto;
+     width: 800px;
+     height: 500px;
+     Text-align: center;
+  }
+  ul{
+    margin:10px 0;
+     padding: 0;
+     width: 2400px;
+    }
+  li{
+    float: left;
+    list-style: none;
+    line-height: 100px;
+    width: 1000px; height:400px;
+    font-size: 12px;
+  }
+  .silde-1{background-color: white;}
+  .silde-2{background-color: white;}
+  .label1{
+    cursor: pointer;
+    line-height: 20px;
+    position:relative;
+    bottom: 0px; 
+    left: -200px;
+    width: 30px;
+    height: 20px;
+    margin: 0 10px; 
+    color:#444444;}
+  .label2{
+    cursor: pointer;
+    line-height: 20px;
+    position: relative;
+    bottom: 0px;
+    left: -100px;
+    width: 50px;
+    height: 20px;
+    margin: 0 10px;
+    color:#444444;}
+  .label3{
+      cursor: pointer;
+      line-height: 20px;
+      position: relative;
+      bottom: 0px;
+      left: 0px;
+      width: 50px;
+      height: 20px;
+      margin: 0 10px;
+      color:#444444;}
+  .label4{
+      cursor: pointer;
+      line-height: 20px;
+      position: relative;
+      bottom: 0px;
+      left: 100px;
+      width: 50px;
+      height: 20px;
+      margin: 0 10px;
+      color:#444444;}
+  #Input1:checked~ul{ margin-left: 0;}
+  #Input2:checked~ul{ margin-left: -1000px;}
+  #Input3:checked~ul{ margin-left: -1200px;}
+  #Input4:checked~ul{ margin-left: -1800px;}
+  #Input1:checked{background-color: #444444;}
+  .xa1{font-size:12px;}
+  .xa2{display: block;}
+
