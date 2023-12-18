@@ -3,7 +3,7 @@
   font-size: 27px;
   font-weight: 600;
   margin:20px;
-  margin-top:80px;
+  margin-top:60px;
   }
   .red{color: red;}
   .a{
@@ -48,7 +48,7 @@
     position: relative;
     padding:5px 5px 5px 40px;
     border: solid 1px;
-    margin:30px 10px 40px 540px;
+    margin:30px 10px 40px 525px;
     font-weight: 600;
     font-size: 13px;
     }
@@ -255,69 +255,199 @@ tr{display: table-cell;}
   .x{  overflow:hidden; 
      position: relative;
      margin: auto;
-     width: 800px;
-     height: 500px;
+     width: 1200px;
+     height: 400px;
      Text-align: center;
   }
   ul{
     margin:10px 0;
      padding: 0;
-     width: 2400px;
+     width: 4800px;
     }
   li{
     float: left;
     list-style: none;
-    line-height: 100px;
+    line-height: 30px;
     width: 1000px; height:400px;
     font-size: 12px;
+    padding: 50px 100px;
   }
   .silde-1{background-color: white;}
   .silde-2{background-color: white;}
+  .ta{padding: 0px; margin: 0px;}
+  .td{
+    cursor:pointer;
+    font-size: 16px;
+    font-weight: 600;
+     width: 320px;
+     height: 35px;
+     
+
+  }
   .label1{
     cursor: pointer;
     line-height: 20px;
-    position:relative;
-    bottom: 0px; 
-    left: -200px;
-    width: 30px;
+    position: relative;
+    top: 8px; 
+    width: 50px;
     height: 20px;
-    margin: 0 10px; 
-    color:#444444;}
+    margin:-4px;
+    margin-left: 0px;
+    color:#444444;
+    font-size: 16px;
+    font-weight: 600;
+    border: solid black 1px;
+    border-right: 0.5px;
+    border-bottom: solid red 1px;
+    padding: 7px 120px;
+  }
   .label2{
     cursor: pointer;
     line-height: 20px;
     position: relative;
-    bottom: 0px;
-    left: -100px;
+    top: 8px; 
+    
     width: 50px;
     height: 20px;
-    margin: 0 10px;
-    color:#444444;}
+    margin:-4px;
+    color:#444444;
+    font-size: 16px;
+    font-weight: 600;
+    border: solid black 1px;
+    border-right: 0.5px;
+    border-bottom: solid red 1px;
+    padding: 7px 80px;
+  }
   .label3{
       cursor: pointer;
       line-height: 20px;
       position: relative;
-      bottom: 0px;
-      left: 0px;
+      top: 8px; 
       width: 50px;
       height: 20px;
-      margin: 0 10px;
-      color:#444444;}
+      margin: -4px;
+      color:#444444;
+      font-size: 16px;
+      font-weight: 600;
+      border: solid black 1px;
+      border-right: 0.5px;
+      border-bottom: solid red 1px;
+      padding: 7px 60px;
+    }
   .label4{
       cursor: pointer;
       line-height: 20px;
       position: relative;
-      bottom: 0px;
-      left: 100px;
+      top: 8px; 
+      
       width: 50px;
       height: 20px;
-      margin: 0 10px;
-      color:#444444;}
+      margin: -4px;
+      color:#444444;
+      font-size: 16px;
+      font-weight: 600;
+      border: solid black 1px; 
+      border-bottom: solid red 1px;
+      padding: 7px 75px;}
   #Input1:checked~ul{ margin-left: 0;}
-  #Input2:checked~ul{ margin-left: -1000px;}
-  #Input3:checked~ul{ margin-left: -1200px;}
-  #Input4:checked~ul{ margin-left: -1800px;}
-  #Input1:checked{background-color: #444444;}
-  .xa1{font-size:12px;}
-  .xa2{display: block;}
-
+ 
+  #Input2:checked~ul{ margin-left: -1200px;}
+  #Input3:checked~ul{ margin-left: -2400px;}
+  #Input4:checked~ul{ margin-left: -3600px;}
+  #Input1:checked~.label1{border: solid red 1px;
+    border-bottom: none; border-right: none; border-right: solid red 1px; color: red; margin-right: -2px;}
+  #Input2:checked~.label2{border: solid red 1px;
+        border-bottom: none; color: red; margin-right: -2px; }
+  #Input3:checked~.label3{border: solid red 1px;
+  border-bottom: none; color: red; margin-right: -2px;}
+  #Input4:checked~.label4{border: solid red 1px;
+            border-bottom: none; color: red; }
+  .xa{
+    font-size:10px;
+    border-bottom: solid #cccccc 2px;
+    text-align: left;
+   margin: 0px -10px 0px -10px;
+   margin-bottom: 0px;
+  
+  }
+  .xi{
+    width: 75px;
+    height: 75px;
+  }
+ .asd{
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+ 
+  }
+ .xd{padding: 0px;
+padding-left: 20px;
+padding-bottom: 5px;
+text-align: left;
+}
+.xbx{
+  font-family:   Arial, sans-serif;
+  font-size:10px;
+  font-weight: 600;
+  text-align: center;
+  background-color:black;
+  color: aliceblue;
+  padding:2px 5px 2px 5px;
+  margin-bottom:1px;
+  margin-top:0px;
+  width: 110px;
+  height:20px;
+  }
+  .and{
+    font-family:   Arial, sans-serif;
+    font-size:10px;
+    font-weight: 600;
+    text-align: center;
+    background-color:pink;
+    color: aliceblue;
+    padding:2px 5px 2px 5px;
+    margin-bottom:1px;
+    margin-top:0px;
+    width: 110px;
+    height:20px;
+    }
+    .gre{
+      font-family:   Arial, sans-serif;
+      font-size:10px;
+      font-weight: 600;
+      text-align: center;
+      background-color:rgb(152, 224, 93);
+      color: aliceblue;
+      padding:2px 5px 2px 5px;
+      margin-bottom:1px;
+      margin-top:0px;
+      width: 110px;
+      height:20px;
+      }
+      .yel{
+        font-family:   Arial, sans-serif;
+        font-size:10px;
+        font-weight: 600;
+        text-align: center;
+        background-color:rgb(236, 236, 43);
+        color: aliceblue;
+        padding:2px 5px 2px 5px;
+        margin-bottom:1px;
+        margin-top:0px;
+        width: 110px;
+        height:20px;
+        }
+  .xy{
+    float:right;
+    font-size:10px;
+    font-weight: 600;
+  }
+  .xz{
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .xs{
+    font-size: 10px;
+    padding-left: 5px;
+  }
+    
